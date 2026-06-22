@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="96" fill="#11161c"/>
+  <g transform="translate(56 56)">
+    <rect width="400" height="400" rx="36" fill="#e9edf1"/>
+    <!-- quadrants -->
+    <rect x="0"   y="0"   width="160" height="160" fill="#e5392f"/>
+    <rect x="240" y="0"   width="160" height="160" fill="#27ae60"/>
+    <rect x="240" y="240" width="160" height="160" fill="#f1c40f"/>
+    <rect x="0"   y="240" width="160" height="160" fill="#2e86de"/>
+    <!-- white base pads -->
+    <rect x="34"  y="34"  width="92" height="92" rx="16" fill="#fff"/>
+    <rect x="274" y="34"  width="92" height="92" rx="16" fill="#fff"/>
+    <rect x="274" y="274" width="92" height="92" rx="16" fill="#fff"/>
+    <rect x="34"  y="274" width="92" height="92" rx="16" fill="#fff"/>
+    <!-- center diamond -->
+    <polygon points="160,160 200,120 240,160 200,200" fill="#27ae60"/>
+    <polygon points="240,160 280,200 240,240 200,200" fill="#f1c40f"/>
+    <polygon points="200,200 240,240 200,280 160,240" fill="#2e86de"/>
+    <polygon points="160,160 200,200 160,240 120,200" fill="#e5392f"/>
+    <!-- tokens -->
+    <circle cx="80"  cy="80"  r="20" fill="#ff6b61" stroke="#fff" stroke-width="5"/>
+    <circle cx="320" cy="80"  r="20" fill="#58d68d" stroke="#fff" stroke-width="5"/>
+    <circle cx="320" cy="320" r="20" fill="#f7dc6f" stroke="#fff" stroke-width="5"/>
+    <circle cx="80"  cy="320" r="20" fill="#5dade2" stroke="#fff" stroke-width="5"/>
+  </g>
+</svg>

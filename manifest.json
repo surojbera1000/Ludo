@@ -1,0 +1,19 @@
+{
+  "name": "Ludo — Pass & Play",
+  "short_name": "Ludo",
+  "description": "A mobile pass-and-play Ludo game for 2 to 4 players.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#11161c",
+  "theme_color": "#1f2933",
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
