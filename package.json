@@ -1,0 +1,13 @@
+{
+  "name": "ludo-pass-and-play",
+  "version": "1.0.0",
+  "description": "A mobile-first, pass-and-play Ludo game for 2-4 players. Vanilla HTML/CSS/JS, zero runtime dependencies, installable as a PWA.",
+  "scripts": {
+    "start": "node server.js",
+    "serve": "node server.js",
+    "test": "node test/logic.test.js && node test/simulate.js"
+  },
+  "keywords": ["ludo", "game", "board-game", "pwa", "vanilla-js", "mobile"],
+  "license": "MIT",
+  "private": true
+}
